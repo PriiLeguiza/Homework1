@@ -5,41 +5,51 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Aprendiendo html</title>
+    <link rel="stylesheet" href="./indexcss.html/reset.css">
+    <link rel="stylesheet" href="./indexcss.html/aprhtml.css">
+
 </head>
 
 <body>
 
     <header>
-        <article>
-            <h1>APRENDIENDO HTML</h1>
-            <span>Etiquetas de formato</span>
-            <span> Etiquetas de Bloque</span>
-            <span> y que se yo</span>
-        </article>
+        <div id="titulo">
+            <article>
+                <h1>APRENDIENDO HTML</h1>
+                <span>Etiquetas de formato</span>
+                <span> Etiquetas de Bloque</span>
+                <span> y que se yo</span>
+            </article>
+        </div>
+
     </header>
     <main>
-        <section>
+        <div id="margenfoto">
+            <img src="./wallpaper-8257343_640.webp" class="foto" />
+        </div>
+        <div>
             <p> Tambien algunos atajitos como Lorem
                 ipsum dolor sit amet consectetur adipisicing elit. Repellendus ipsa nobis ullam.
                 Enim cum veritatis soluta consequuntur iure hic accusamus perferendis quo.
                 Id, perferendis repellendus cupiditate laborum magni omnis doloremque! </p>
 
+        </div>
 
+        <hr />
 
-            <hr />
-          
-
+        <div>
             <article>
-                <h2> ETIQUETAS DE FORMATO</h2>
+                <h2 class="titulos"> ETIQUETAS DE FORMATO</h2>
 
                 <p> Todo lo que escribimos dentro de una etiqueta p, se transformara
                     en texto plano en la web</p>
             </article>
 
-
-
+        </div>
+        <hr/>
+        <div>
             <article>
-                <h3> COMO CREAR CONTENIDO EN LISTAS</h3>
+                <h3 class="titulos"> COMO CREAR CONTENIDO EN LISTAS</h3>
                 <p>El elemento ol permite crear listas ordenadas numericamente o tipo viñetas</p>
 
                 <ol>
@@ -49,34 +59,36 @@
                 </ol>
             </article>
 
+        </div>
+        <hr/>
+        <div>
             <article>
-                <h3> TAMBIEN PODRIA VERSE EN VIÑETAS NO ORDENADAS</h3>
+                <h3 class="titulos"> TAMBIEN PODRIA VERSE EN VIÑETAS NO ORDENADAS</h3>
 
                 <ul>
                     <li>unorderer list</li>
 
                 </ul>
             </article>
-
-            <hr />
+        </div>
+        <hr/>
+        <div>
             <article>
-                <h2> ETIQUETAS DE BLOQUE</h2>
+                <h2 class="titulos"> ETIQUETAS DE BLOQUE</h2>
                 <ul>
                     <li> HEADER: Se usa para el encabezado, no modifica la visual pero es el modo correcto</li>
                     <li> MAIN: Dentro de Main se encuentra todo el contenido principal, tampoco modifica la visual</li>
 
                 </ul>
             </article>
-
-            <hr />
-        </section>
+        </div>
 
 
 
     </main>
 
     <footer>
-        <p>se utiliza como pie de pag, para poner enlaces por ej</p>
+        <a href="./link-para-pag.html">Link de pag</a>
 
     </footer>
 
